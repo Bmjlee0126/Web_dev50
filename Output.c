@@ -34,8 +34,6 @@ int main() {
     return 0;
 }
 
-#include <stdio.h>
-
 int main() {
     int n = 10; // Number of rows for the top half of the diamond
     int i, j;
