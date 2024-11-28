@@ -48,7 +48,8 @@ int main() {
         for (j = 1; j <= 2 * i - 1; j++) {
             printf("*");
         }
-        printf("ㅠ \n");
+        printf("ㅠ
+        \n");
     }
 
     // Print the bottom half of the diamond
