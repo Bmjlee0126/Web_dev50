@@ -20,6 +20,21 @@
     Thank You
 */
 
+int main() {
+    // A. Comment
+    // 1. Here, we will print a few shapes
+    printf("Here, we will print a few shapes.\n\n");
+
+    // B. Comment
+    // 1. Diamond
+    printf("Diamond:\n");
+    printDiamond();
+    printf("\n");
+
+    return 0;
+}
+
+
 void printDiamond() {
     int n = 7; // Half the height of the diamond
     for (int i = 1; i <= n; i++) {
