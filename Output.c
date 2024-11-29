@@ -63,6 +63,7 @@ int main(){
     printDiamond();
     printf("\n");
 
+    //empty
 
     return;
 }
