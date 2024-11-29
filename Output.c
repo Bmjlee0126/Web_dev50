@@ -53,7 +53,7 @@ void printEmptyDiamond(){
         for (int j =0;j<n-i-1; j++){
             printf(" ");
         }
-        // 다이아 테두리
+        // diamond rim
         for (int j=0; j< 2*i+1; j++){
             // space -> edge
             if(j==0||j==2*i){
