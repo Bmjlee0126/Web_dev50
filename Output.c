@@ -11,11 +11,6 @@
 
 
 void printDiamond() {
-
-
-}
-
-int main() {
     int n = 10; // Number of rows for the top half of the diamond
     int i, j;
 
@@ -47,10 +42,20 @@ int main() {
     }
 
     return 0;
+
 }
 
 
 
+void printEmptyDiamond(){
+    printf("   *        *   \n");
+    printf("  * *      * *  \n");
+    printf(" *   *    *   * \n");
+    printf("*     *  *     *\n");
+    printf(" *   *    *   * \n");
+    printf("  * *      * *  \n");
+    printf("   *        *   \n\n");
+}
 
 
 int main(){
@@ -63,7 +68,9 @@ int main(){
     printDiamond();
     printf("\n");
 
-    //empty
+    //empty diamond (two times)
+    printEmptyDiamond();
+    printf("\n");
 
     return;
 }
