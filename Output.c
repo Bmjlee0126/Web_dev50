@@ -20,7 +20,7 @@
     Thank You
 */
 
-int main() {
+int output() {
     // A. Comment
     // 1. Here, we will print a few shapes
     printf("Here, we will print a few shapes.\n\n");
